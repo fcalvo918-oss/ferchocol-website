@@ -499,21 +499,51 @@ footer .social-links {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.25rem;
+    gap: 3rem;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 footer .social-links a {
-    color: #dbeafe;
-    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    color: #ffffff;
+    border-radius: 50%;
     text-decoration: none;
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+footer .social-links svg {
+    width: 26px;
+    height: 26px;
 }
 
 footer .social-links a:hover,
 footer .social-links a:focus-visible {
     color: #20c7e8;
-    text-decoration: underline;
-    text-underline-offset: 0.25rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    transform: translateY(-2px);
+}
+
+footer .social-links a:focus-visible {
+    outline: 2px solid #20c7e8;
+    outline-offset: 3px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
