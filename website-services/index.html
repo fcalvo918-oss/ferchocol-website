@@ -10,7 +10,7 @@
   <link rel="canonical" href="https://ferchocol.com/website-services/">
 
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles.css?v=20260926-2">
 
   <script type="application/ld+json">
   {
@@ -136,7 +136,7 @@
     </div>
   </section>
 
-  <section class="section" id="inquiry">
+  <section class="section inquiry-section" id="inquiry">
     <div class="wrap inquiry-layout">
       <div>
         <p class="eyebrow">START A CONVERSATION</p>
@@ -157,6 +157,11 @@
         class="inquiry-form"
         action="https://formspree.io/f/xbglzznq"
         method="POST">
+        <div class="form-heading">
+          <span class="form-step">Project inquiry</span>
+          <h3>Let’s learn about your business.</h3>
+          <p>Required fields are marked with an asterisk.</p>
+        </div>
 
         <input type="hidden" name="_subject" value="New Ferchocol website inquiry">
 
@@ -244,8 +249,9 @@
           </div>
 
           <div class="form-field full">
-            <button class="button primary" type="submit">
-              Submit website inquiry
+            <button class="button primary form-submit" type="submit">
+              <span>Submit website inquiry</span>
+              <span aria-hidden="true">→</span>
             </button>
           </div>
         </div>
