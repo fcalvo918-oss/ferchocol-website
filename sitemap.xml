@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ferchocol.com/</loc>
-  </url>
-  <url>
-    <loc>https://ferchocol.com/website-services/</loc>
-  </url>
-  <url>
-    <loc>https://ferchocol.com/storyframe/</loc>
-  </url>
-  <url>
-    <loc>https://ferchocol.com/privacy.html</loc>
-  </url>
-  <url>
-    <loc>https://ferchocol.com/vardex/</loc>
-  </url>
-  <url>
-    <loc>https://ferchocol.com/vardex/privacy.html</loc>
-  </url>
+  <url><loc>https://ferchocol.com/</loc></url>
+  <url><loc>https://ferchocol.com/website-services/</loc></url>
+  <url><loc>https://ferchocol.com/app-development/</loc></url>
+  <url><loc>https://ferchocol.com/work/</loc></url>
+  <url><loc>https://ferchocol.com/about/</loc></url>
+  <url><loc>https://ferchocol.com/vardex/</loc></url>
+  <url><loc>https://ferchocol.com/vardex/privacy.html</loc></url>
+  <url><loc>https://ferchocol.com/fabellume/</loc></url>
+  <url><loc>https://ferchocol.com/fabellume/privacy/</loc></url>
+  <url><loc>https://ferchocol.com/privacy.html</loc></url>
 </urlset>
