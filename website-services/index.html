@@ -68,7 +68,7 @@
       </p>
 
       <div class="actions">
-        <a class="button primary" href="#inquiry">Start a website inquiry</a>
+        <a class="button primary" href="#inquiry">Start a project inquiry</a>
         <a
           class="button secondary"
           href="/work/#website-concepts"
@@ -159,9 +159,9 @@
     <div class="wrap inquiry-layout">
       <div>
         <p class="eyebrow">START A CONVERSATION</p>
-        <h2>Tell us about your website project.</h2>
+        <h2>Tell us about your website or focused app project.</h2>
         <p>
-          Complete the form or email
+          Use this single project-inquiry form or email
           <a href="mailto:hello@ferchocol.com">hello@ferchocol.com</a>.
           Sharing a few practical details helps us understand whether the
           project is a good fit.
@@ -178,11 +178,11 @@
         method="POST">
         <div class="form-heading">
           <span class="form-step">Project inquiry</span>
-          <h3>Let’s learn about your business.</h3>
+          <h3>Let’s learn about your project.</h3>
           <p>Required fields are marked with an asterisk.</p>
         </div>
 
-        <input type="hidden" name="_subject" value="New Ferchocol website inquiry">
+        <input type="hidden" name="_subject" value="New Ferchocol project inquiry">
 
         <div class="honeypot" aria-hidden="true">
           <label for="company-website-confirm">Leave this field empty</label>
@@ -195,6 +195,16 @@
         </div>
 
         <div class="form-grid">
+          <div class="form-field full">
+            <label for="project-type">Project type *</label>
+            <select id="project-type" name="project_type" required>
+              <option value="">Select one</option>
+              <option>Website design or development</option>
+              <option>Small, focused app development</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+
           <div class="form-field">
             <label for="name">Name *</label>
             <input id="name" name="name" type="text" autocomplete="name" required>
@@ -216,10 +226,10 @@
           </div>
 
           <div class="form-field">
-            <label for="website">Current website</label>
+            <label for="website">Current website or related link</label>
             <input
               id="website"
-              name="current_website"
+              name="current_website_or_link"
               type="url"
               inputmode="url"
               placeholder="https://">
@@ -254,7 +264,7 @@
               id="project"
               name="project_details"
               required
-              placeholder="Tell us about your business, the pages or features you need, and what you want the website to accomplish."></textarea>
+              placeholder="For a website: describe your business, pages, content, and visitor goals. For an app: describe the problem, intended users, essential first-version features, preferred platform if known, timeline, and budget."></textarea>
           </div>
 
           <div class="form-field full">
@@ -269,7 +279,7 @@
 
           <div class="form-field full">
             <button class="button primary form-submit" type="submit">
-              <span>Submit website inquiry</span>
+              <span>Submit project inquiry</span>
               <span aria-hidden="true">→</span>
             </button>
           </div>
