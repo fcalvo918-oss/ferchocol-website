@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ferchocol.com/</loc></url>
-  <url><loc>https://ferchocol.com/website-services/</loc></url>
-  <url><loc>https://ferchocol.com/app-development/</loc></url>
-  <url><loc>https://ferchocol.com/work/</loc></url>
-  <url><loc>https://ferchocol.com/about/</loc></url>
-  <url><loc>https://ferchocol.com/vardex/</loc></url>
-  <url><loc>https://ferchocol.com/vardex/privacy.html</loc></url>
-  <url><loc>https://ferchocol.com/fabellume/</loc></url>
-  <url><loc>https://ferchocol.com/fabellume/privacy/</loc></url>
-  <url><loc>https://ferchocol.com/privacy.html</loc></url>
+  <url><loc>https://ferchocol.com/</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/website-services/</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/app-development/</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/work/</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/about/</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/vardex/</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/vardex/privacy.html</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/fabellume/</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/fabellume/privacy/</loc>
+    <lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://ferchocol.com/privacy.html</loc>
+    <lastmod>2026-10-20</lastmod></url>
 </urlset>

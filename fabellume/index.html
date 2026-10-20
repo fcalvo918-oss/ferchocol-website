@@ -4,7 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Preview Fabellume, a focused, subscription-free Windows video editor, and apply to join the limited Windows Beta.">
-  <meta name="theme-color" content="#0B1320">\n  <link rel="canonical" href="https://ferchocol.com/fabellume/">\n  <meta property="og:type" content="website">\n  <meta property="og:title" content="Fabellume Windows Beta | Ferchocol Software">\n  <meta property="og:description" content="Preview Fabellume, an in-development Windows desktop video editor, and apply for limited beta consideration.">\n  <meta property="og:url" content="https://ferchocol.com/fabellume/">
+  <meta name="theme-color" content="#0B1320">
+  <meta name="application-name" content="Ferchocol Software">
+  <link rel="canonical" href="https://ferchocol.com/fabellume/">
+  <meta property="og:type" content="product">
+  <meta property="og:site_name" content="Ferchocol Software">
+  <meta property="og:title" content="Fabellume Windows Beta | Ferchocol Software">
+  <meta property="og:description" content="Preview Fabellume, an in-development Windows desktop video editor, and apply for limited beta consideration.">
+  <meta property="og:url" content="https://ferchocol.com/fabellume/">
+  <meta property="og:image" content="https://ferchocol.com/assets/social/fabellume.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Fabellume, an in-development Windows video editor by Ferchocol Software">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fabellume Windows Beta | Ferchocol Software">
+  <meta name="twitter:description" content="Preview Fabellume, an in-development Windows desktop video editor, and apply for limited beta consideration.">
+  <meta name="twitter:image" content="https://ferchocol.com/assets/social/fabellume.png">
+  <meta name="twitter:image:alt" content="Fabellume, an in-development Windows video editor by Ferchocol Software">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <title>Fabellume Windows Beta | Ferchocol Software</title>
   <style>
     :root {
@@ -30,7 +49,9 @@
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.6;
     }
-    a { color: var(--blue); }\n    .skip-link { position:fixed; top:10px; left:10px; z-index:100; padding:10px 14px; color:var(--navy); background:var(--white); border-radius:8px; transform:translateY(-160%); }\n    .skip-link:focus { transform:translateY(0); }
+    a { color: var(--blue); }
+    .skip-link { position:fixed; top:10px; left:10px; z-index:100; padding:10px 14px; color:var(--navy); background:var(--white); border-radius:8px; transform:translateY(-160%); }
+    .skip-link:focus { transform:translateY(0); }
     a:hover { text-decoration-thickness: 2px; }
     .wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
     .site-header {
@@ -158,9 +179,11 @@
       .media-panel { padding: 12px 8px; }
       .form-card { border-radius: 17px; }
     }
-  </style>
+        .form-status{min-height:1.5rem;margin:14px 0 0;font-weight:700}.form-status[data-state="success"]{color:#17663a}.form-status[data-state="error"]{color:#9b1c1c}.submit:disabled{cursor:wait;opacity:.72}
+    </style>
 </head>
-<body>\n  <a class="skip-link" href="#main-content">Skip to content</a>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="wrap nav">
       <a class="brand" href="/">FERCHOCOL <span>SOFTWARE</span></a>
@@ -233,9 +256,8 @@
           <h3>Join the Windows Beta</h3>
           <p class="form-intro">Tell us a little about your setup and what you hope to create.</p>
           <!-- Replace YOUR_FORM_ID with the endpoint ID supplied by Formspree. -->
-          <form action="https://formspree.io/f/meaqnkrg" method="POST">
+          <form data-enhanced-form data-form-kind="fabellume-beta" action="https://formspree.io/f/meaqnkrg" method="POST">
             <input type="hidden" name="_subject" value="New Fabellume Windows Beta application">
-            <!-- Honeypot field for automated spam. Keep it visually hidden and empty. -->
             <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
             <div class="field-grid">
               <div class="field">
@@ -295,6 +317,7 @@
             </div>
 
             <button class="button button-primary submit" type="submit">Submit beta application</button>
+            <p class="form-status" data-form-status role="status" aria-live="polite" tabindex="-1"></p>
           </form>
         </div>
       </div>
@@ -334,5 +357,6 @@
       });
     });
   </script>
+  <script src="/form-handler.js" defer></script>
 </body>
 </html>

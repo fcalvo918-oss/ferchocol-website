@@ -920,3 +920,8 @@ footer .social-links a:focus-visible {
   .contact-actions { justify-content: stretch; width: 100%; }
   .contact-actions .button { width: 100%; }
 }
+
+.form-status { min-height: 1.5rem; margin: 14px 0 0; font-weight: 700; }
+.form-status[data-state="success"] { color: #17663a; }
+.form-status[data-state="error"] { color: #9b1c1c; }
+.form-submit:disabled { cursor: wait; opacity: .72; }

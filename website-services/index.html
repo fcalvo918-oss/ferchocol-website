@@ -3,13 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0B2A45">
+  <meta name="application-name" content="Ferchocol Software">
 
   <title>Small Business Website Design | Ferchocol Software</title>
   <meta name="description"
         content="Ferchocol Software creates professional, mobile-friendly websites for small businesses across the United States and internationally.">
   <link rel="canonical" href="https://ferchocol.com/website-services/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ferchocol Software">
+  <meta property="og:title" content="Small Business Website Design | Ferchocol Software">
+  <meta property="og:description" content="Professional, mobile-friendly website design and development for small businesses in the United States and internationally.">
+  <meta property="og:url" content="https://ferchocol.com/website-services/">
+  <meta property="og:image" content="https://ferchocol.com/assets/social/website-services.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Ferchocol Software website design and development services">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Small Business Website Design | Ferchocol Software">
+  <meta name="twitter:description" content="Professional, mobile-friendly website design and development for small businesses in the United States and internationally.">
+  <meta name="twitter:image" content="https://ferchocol.com/assets/social/website-services.png">
+  <meta name="twitter:image:alt" content="Ferchocol Software website design and development services">
 
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="../styles.css?v=20260926-2">
 
   <script type="application/ld+json">
@@ -29,7 +47,8 @@
   </script>
 </head>
 
-<body>\n<a class="skip-link" href="#main-content">Skip to content</a>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 
 <header class="site-header">
   <div class="wrap nav">
@@ -68,7 +87,7 @@
       </p>
 
       <div class="actions">
-        <a class="button primary" href="#inquiry">Start a project inquiry</a>
+        <a class="button primary" href="#inquiry">Submit a project inquiry</a>
         <a
           class="button secondary"
           href="/work/#website-concepts"
@@ -155,7 +174,8 @@
       <aside class="detail-card"><h3>Relevant examples</h3><p><a class="text-link" href="/work/#website-concepts">Read the Ferchocol concept summaries →</a></p><p><a class="text-link" href="https://yarumoapps.com/" target="_blank" rel="noopener noreferrer">Open the live portfolio and pricing ↗</a></p></aside>
     </div>
   </section>
-\n  <section class="section inquiry-section" id="inquiry">
+
+  <section class="section inquiry-section" id="inquiry">
     <div class="wrap inquiry-layout">
       <div>
         <p class="eyebrow">START A CONVERSATION</p>
@@ -174,6 +194,8 @@
 
       <form
         class="inquiry-form"
+        data-enhanced-form
+        data-form-kind="project-inquiry"
         action="https://formspree.io/f/xbglzznq"
         method="POST">
         <div class="form-heading">
@@ -282,6 +304,7 @@
               <span>Submit project inquiry</span>
               <span aria-hidden="true">→</span>
             </button>
+        <p class="form-status" data-form-status role="status" aria-live="polite" tabindex="-1"></p>
           </div>
         </div>
       </form>
@@ -312,5 +335,6 @@
 </footer>
 
 <script src="../script.js"></script>
+  <script src="/form-handler.js" defer></script>
 </body>
 </html>
