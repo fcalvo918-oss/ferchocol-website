@@ -82,6 +82,8 @@ h1 { margin-bottom: 24px; font-size: clamp(3rem, 6.5vw, 5.7rem); line-height: .9
 h1 span { color: var(--orange-light); }
 .hero-lede { max-width: 690px; margin-bottom: 34px; color: #d5e1ea; font-size: clamp(1.05rem, 1.8vw, 1.25rem); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: stretch; }
+.price-note { margin: 14px 0 0; color: #d7e4ed; font-size: .92rem; line-height: 1.5; }
+.price-note strong { color: var(--white); }
 .play-button {
   display: inline-grid;
   grid-template-columns: auto auto auto;
@@ -167,6 +169,7 @@ h1 span { color: var(--orange-light); }
 .cta-panel img { border-radius: 26px; }
 .cta-panel h2 { margin-bottom: 10px; color: var(--white); font-size: clamp(2rem, 3.5vw, 3.2rem); }
 .cta-panel p:not(.eyebrow) { margin-bottom: 0; color: #c7d6e1; }
+.cta-panel .price-note { margin-top: 8px; font-size: .88rem; }
 .cta-link { padding: 15px 20px; color: var(--navy); background: var(--white); border-radius: 12px; font-weight: 800; text-decoration: none; white-space: nowrap; }
 .cta-link:hover { background: #fff1e7; }
 
