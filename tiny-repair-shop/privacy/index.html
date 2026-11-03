@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#0B2A45">
   <meta name="application-name" content="Ferchocol Software">
   <title>Tiny Repair Shop Privacy Policy | Ferchocol Software</title>
-  <meta name="description" content="Privacy policy for Tiny Repair Shop by Ferchocol Software, updated November 1, 2026.">
+  <meta name="description" content="Privacy policy for Tiny Repair Shop by Ferchocol Software, updated November 3, 2026.">
   <link rel="canonical" href="https://ferchocol.com/tiny-repair-shop/privacy/">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -41,17 +41,26 @@
     <div class="wrap narrow prose">
       <section>
         <h2>Who we are</h2>
-        <p>Tiny Repair Shop is provided by Ferchocol Software. For privacy questions, parents or guardians can contact <a href="mailto:hello@ferchocol.com">hello@ferchocol.com</a>. Updated November 1, 2026.</p>
+        <p>Tiny Repair Shop is provided by Ferchocol Software. For privacy questions, parents or guardians can contact <a href="mailto:hello@ferchocol.com">hello@ferchocol.com</a>. Updated November 3, 2026.</p>
       </section>
 
       <section>
         <h2>Information used by the game</h2>
-        <p>This version does not ask for an account, name, email address, date of birth, location, contacts, photos, camera or microphone access. It contains no advertising, analytics or in-app purchase SDK. The game does not send gameplay information to Ferchocol Software servers.</p>
+        <p>This version does not ask for an account, name, email address, date of birth, location, contacts, photos, camera or microphone access.</p>
+        <p>It includes the Google Mobile Ads SDK for adult debug testing, and no separate analytics SDK. Google demo ads are off by default and can only be enabled in a debug build for an adult test session. The signed internal-testing release includes the ads SDK but cannot enable or display these demo ads. Demo ads are available only in Android Studio debug builds. Before an adult enables testing, the game does not initialize the ads SDK or request ads; Android may load the SDK initialization provider. Advertising ID and Android AdServices permissions are removed from this build. During an enabled test session, Google may process device and network information, IP address, diagnostic information and ad interactions to deliver and measure demo ads. Google’s SDK may also handle app/device identifiers, such as app set ID. Removing advertising-ID permission does not remove every identifier. These are test ads, not revenue-generating ads. Child age treatment, general-audience content limits and disabled personalization are configured before initialization.</p>
+        <p>A remembered purchase prevents automatic interstitial ad loads and displays. Adult testers, including purchased players, may separately choose to load and watch a Google rewarded demo ad for one hint. Loading and watching each require a deliberate action. The app uses Google’s reward callback to grant a single hint on the same unfinished repair; closing early without that callback or a failed request grants no hint. It does not automatically load another rewarded ad after dismissal. Ending the automatic-ad test session stops further automatic requests and discards its queued ad. Rewarded ads are a separate, explicit choice. Google may already have processed earlier requests. See Google’s privacy policy at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>.</p>
+        <p>When you open Remove Ads in Settings, the Google Play Billing Library asks Google Play for product availability and the localized price using the Play account on your device. In this internal test build, adult license testers can initiate a Google Play purchase and restore purchases. Google Play processes the transaction using the Play account and payment method selected in its payment sheet. Use a test payment method when testing. Ferchocol Software does not receive your card details. The app checks purchase ownership on launch, on returning to the app, and when using Restore purchases. Signed purchase information is verified and stored in private app preferences to remember access. The purchase record is excluded from exported game backups and Android backup; on a new installation, use Google Play to restore it.</p>
+        <p>On Android, the app checks the system’s validated internet connection before starting a repair for free players. A locally verified purchase enables offline repairs. One last unfinished repair started online can be resumed or finished offline; its repair identifier is stored in separate private preferences, excluded from manual and Android backups. This record is not a purchase. An offline or failed Play check preserves the remembered verified purchase; restoring a purchase on a fresh installation requires internet. Network validation uses Android’s system status rather than a new game-server request. The game does not send gameplay information to Ferchocol Software servers.</p>
       </section>
 
       <section>
         <h2>Progress on your device</h2>
         <p>The game stores puzzle positions, move and hint counts, completed repairs, stars, daily repair dates and rewards, sound preferences, tutorial status and chosen decorations in local app storage. This information makes it possible to resume play and remember your choices. It is not encrypted by the game itself.</p>
+      </section>
+
+      <section>
+        <h2>Manual backup files</h2>
+        <p>You can choose to export a game backup and select a file to restore. These files contain game progress and preferences, are not encrypted by the game, and remain wherever you choose to save them, including any cloud storage provider you select. Deleting the app does not delete exported backups. Manage or delete those files through your file provider. Restoring replaces local progress after confirmation and keeps one local copy of the previous save for recovery.</p>
       </section>
 
       <section>
@@ -66,7 +75,7 @@
 
       <section>
         <h2>Children and families</h2>
-        <p>The game is intended for children and adults. This version has no accounts, chat, public profiles, ads or purchases. It does not request personal information from children. A parent or guardian should handle any support correspondence and avoid sending unnecessary personal information about a child.</p>
+        <p>The game is intended for children and adults. This version has no game accounts, chat or public profiles. Purchase testing and optional debug ad testing are intended for adult testers only. Children should not enable debug ad testing. Parental and age-appropriate monetization controls still need review before a public monetized release. The game does not ask children to enter personal information. A parent or guardian should handle any support correspondence and avoid sending unnecessary personal information about a child.</p>
       </section>
 
       <section>
@@ -76,7 +85,7 @@
 
       <section>
         <h2>Sharing and changes</h2>
-        <p>We do not sell gameplay information or send it to advertisers in this version. Android backup and voluntarily sent support email are described above. If future versions introduce ads, purchases or other data handling, we will update this policy and provide any required notices and choices before enabling those features.</p>
+        <p>We do not sell gameplay information or send puzzle progress to advertisers. Google handles demo ad requests during an enabled adult debug test session as described above. Android backup and voluntarily sent support email are described above. Before a public release introduces live advertising or other new data handling, we will update this policy and provide any required notices and choices before enabling those features.</p>
       </section>
 
       <p><a href="/">← Back to Ferchocol Software</a></p>
