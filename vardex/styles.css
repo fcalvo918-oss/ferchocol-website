@@ -277,7 +277,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--orange-light); 
   color: var(--white);
   background: linear-gradient(145deg, var(--navy-deep), #101b25);
 }
-.windows-showcase .section-heading p { color: #c8d5de; }
+.windows-showcase h2 { color: var(--white); }
+.windows-showcase .section-heading p { color: #d7e2e9; }
 .windows-screenshot-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
 .windows-screenshot-grid figure { margin: 0; overflow: hidden; background: #07131e; border: 1px solid rgba(255,255,255,.16); border-radius: 16px; box-shadow: 0 20px 45px rgba(0,0,0,.28); }
 .windows-screenshot-grid img { width: 100%; aspect-ratio: 16 / 8.75; object-fit: cover; object-position: top center; }
