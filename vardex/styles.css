@@ -304,16 +304,16 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--orange-light); 
 .hero .product-title {
   max-width: 760px;
   margin-bottom: 18px;
-  font-size: clamp(1.45rem, 2.7vw, 2.15rem);
-  line-height: 1.15;
-  letter-spacing: -.035em;
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  line-height: 1.02;
+  letter-spacing: -.05em;
 }
 .hero-tagline {
   margin: 0 0 24px;
-  font-size: clamp(3rem, 6.5vw, 5.7rem);
-  font-weight: 800;
-  line-height: .98;
-  letter-spacing: -.06em;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 750;
+  line-height: 1.12;
+  letter-spacing: -.035em;
 }
 .hero-tagline span { color: var(--orange-light); }
 .faq-section { background: var(--paper); }
