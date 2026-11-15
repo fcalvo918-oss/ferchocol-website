@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0B2A45">
   <meta name="application-name" content="Ferchocol Software">
-  <base href="https://ferchocol.com/">
   <title>How to Estimate Concrete Volume, Bags, and Project Cost | Ferchocol</title>
   <meta name="description" content="Learn how to estimate concrete volume, bag quantity, waste, material pricing, labor, markup, and project cost using U.S. customary units.">
   <link rel="canonical" href="https://ferchocol.com/guides/estimate-concrete-volume-bags-cost/">
@@ -28,7 +27,10 @@
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/styles.css?v=20261020-1">
+  <link rel="stylesheet" href="https://ferchocol.com/styles.css?v=20261020-1">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Article","headline":"How to Estimate Concrete Volume, Bags, and Project Cost","description":"Learn how to estimate concrete volume, bag quantity, waste, material pricing, labor, markup, and project cost using U.S. customary units.","url":"https://ferchocol.com/guides/estimate-concrete-volume-bags-cost/","image":"https://ferchocol.com/assets/social/concrete-estimate-guide.png","datePublished":"2026-11-15","dateModified":"2026-11-15","author":{"@type":"Organization","name":"Ferchocol Software","url":"https://ferchocol.com/"},"publisher":{"@type":"Organization","name":"Ferchocol Software","url":"https://ferchocol.com/","logo":{"@type":"ImageObject","url":"https://ferchocol.com/assets/logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://ferchocol.com/guides/estimate-concrete-volume-bags-cost/"}}
+  </script>
   <style>
     .article-hero{padding:88px 0 64px;background:linear-gradient(180deg,#fff 0%,#f6f9fe 100%);border-bottom:1px solid var(--line)}
     .article-hero h1{max-width:900px;font-size:clamp(2.6rem,6vw,5rem)}
@@ -66,15 +68,15 @@
       <p class="formula">Cubic yards = cubic feet ÷ 27</p>
       <p>Keep enough decimal precision while calculating, then round only when deciding how much material to purchase.</p>
 
-      <h2>3. Estimate the number of bags</h2>
-      <p>If the project will use bagged concrete, check the manufacturer’s stated yield for the exact bag size and product. Divide the required cubic feet by the stated yield per bag, then round up to a whole bag.</p>
-      <p class="formula">Estimated bags = required cubic feet ÷ manufacturer’s yield per bag</p>
-      <p>Bag yields vary. Do not substitute a generic yield when the product label or supplier specification provides a different value.</p>
-
-      <h2>4. Add a waste allowance thoughtfully</h2>
+      <h2>3. Select and apply a waste allowance thoughtfully</h2>
       <p>A waste allowance can account for small measurement differences, spillage, uneven subgrade, form variation, and material left during placement. Choose the percentage based on the specific job rather than treating one percentage as correct for every project.</p>
       <p class="formula">Volume with waste = base volume × (1 + waste percentage)</p>
       <p>For example, enter 0.10 in the formula for a 10% allowance. The appropriate allowance remains a project decision and should be verified by the person responsible for the work.</p>
+
+      <h2>4. Estimate bag quantity or ready-mix quantity</h2>
+      <p>If the project will use bagged concrete, check the manufacturer’s stated yield for the exact bag size and product. When a waste allowance is included, divide the waste-adjusted cubic feet by the stated yield per bag, then round up to the next whole bag.</p>
+      <p class="formula">Estimated bags = waste-adjusted cubic feet ÷ manufacturer’s stated yield per bag</p>
+      <p>For ready-mix concrete, use the waste-adjusted cubic-yard quantity when requesting a supplier estimate. Bag yields and supplier requirements vary. Do not substitute a generic yield when the product label or supplier specification provides a different value.</p>
 
       <h2 id="cost">5. Apply current material pricing</h2>
       <p>Use the purchase unit that matches the supplier quote. For bagged material, multiply the rounded bag quantity by the current price per bag. For ready-mix, use the quoted unit and include applicable delivery, short-load, or other supplier charges separately when they apply.</p>
@@ -84,8 +86,10 @@
       <h2>6. Include labor and markup</h2>
       <p>Estimate labor by multiplying the expected hours by the applicable hourly rate. Consider the full scope of the work, which may include preparation, forming, reinforcement, placement, finishing, cleanup, and other job-specific tasks.</p>
       <p class="formula">Estimated labor cost = labor hours × hourly labor rate</p>
-      <p>Combine the costs that belong in your subtotal, then apply markup using the method your business has chosen. Keep markup visible rather than hiding it inside a material quantity.</p>
-      <p class="formula">Estimated total = applicable costs + markup</p>
+      <p>For percentage-based markup, first identify the applicable subtotal and multiply it by the markup rate. Then add that amount to the applicable subtotal.</p>
+      <p class="formula">Markup amount = applicable subtotal × markup rate</p>
+      <p class="formula">Estimated total = applicable subtotal + markup amount</p>
+      <p>Businesses may calculate pricing differently and should use their established method. Markup and profit margin are not the same calculation, so do not substitute one percentage for the other.</p>
       <p>Taxes, permits, equipment, delivery, disposal, subcontractors, and other expenses may need separate line items if they are part of the project.</p>
 
       <h2>7. Review the estimate before using it</h2>
